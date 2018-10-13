@@ -20,7 +20,7 @@ public class MyFirebaseMessagingService extends HyperTrackFirebaseMessagingServi
 
         //HyperTrack: notification
         if (remoteMessage.getData() != null) {
-            String sdkNotification = remoteMessage.getData().get(Constants.HT_SDK_NOTIFICATION_KEY);
+            String sdkNotification = remoteMessage.getData().get(Constants.AAAA9gV9hwg:APA91bHT0ZetKhTKncsuwawDHpEkgLfvrG6_vXYXak4Upa2lXzu8MCZ2-lJCB-7fYexDCf1A1MFfC65vLK7QYABIQaslPCtweQ8ie3sR_RqmkEkktOvbKkspsN4u6EoTr3LJfOGR8rNV);
             if (sdkNotification != null && sdkNotification.equalsIgnoreCase("true")) {
                 /**
                  * HyperTrack notifications are received here
